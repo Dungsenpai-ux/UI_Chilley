@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css'; // Optional CSS file
 
-const API_URL = 'http://localhost:8080'; // Change to deployed backend URL
+const API_URL = 'https://chilley-intern.onrender.com'; // Change to deployed backend URL
 
 function App() {
   const [tasks, setTasks] = useState([]);

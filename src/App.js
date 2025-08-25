@@ -1,9 +1,9 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './App.css'; // Optional CSS file
+import './App.css'; 
 
-const API_URL = 'https://chilley-intern.onrender.com'; // Change to deployed backend URL
+const API_URL = 'https://chilley-intern.onrender.com'; 
 
 function App() {
   const [tasks, setTasks] = useState([]);
